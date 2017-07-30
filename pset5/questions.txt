@@ -1,0 +1,11 @@
+0.  It is a lung disease that is otherwise known as silicosis.
+1.  It returns resource usage for the calling process or its children or the calling thread.
+2.  16
+3.  I think it is for speed purposes.
+4.  At each iteration of the for loop it reads the next character and if it is a letter it appends it to the word, if not or the length of the word is greater than maximum, it skips until the next word and begins to read it starting again from the index = 0. If word found, it check it for errors.
+5.  I think you read one char at a time in order to check whether or not the next char is a letter.
+6.  Because we do not want to modify the content of those parameters.
+7.  I used a trie which contains a boolean is_word and array of pointers to the next nodes. Also I used a separate struct for dictionary where I store the root of the trie and size of the dictionary.
+8.  It was fast enough! My first working version is also the last one.
+9.  I just implement a trie!
+10. Trie data structure could potentially be improved for the space usage at least.
