@@ -1,0 +1,19 @@
+0.  GIF - 256 colors, JPEG, PNG, BMP - 24-bit color
+1.  GIF
+2.  lossy compression implies loss of some information about an original data upon decompression, lossless - not.
+3.  JPEG
+4.  Briefly speaking, only some metadata changes about availability of the disk blocks 'to be deleted' for future use, but actual content of files themselves is never touched.
+5.  For instance, we can overwrite the disk content with all zeros to ensure that data was deleted.
+6.  stdint.h includes definitions of new integer types in C99 standard
+7.  We use these types in our program because their sizes satisfy our needs.
+8.  1, 4, 4, 2
+9.  BM
+10. bfSize - size of the file; biSize - The number of bytes required by the structure.
+11. If biHeight is negative, the bitmap is a top-down DIB and its origin is the upper-left corner.
+12. biBitCount
+13. For example, due to the permissions on file we try to open.
+14. Because we are trying to read a single structure at a time specified by sizeof(...) function call.
+15. 3
+16. The fseek() function sets the file position indicator for the stream pointed to by stream file pointer passed as an argument
+17. It is one of the options for the third argumant to the fseek() function that specifies that the offset provided is relative to the current file position
+18. Rob
